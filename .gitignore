@@ -1,0 +1,31 @@
+# Dependencies and generated output
+node_modules/
+.next/
+out/
+dist/
+coverage/
+*.tsbuildinfo
+next-env.d.ts
+
+# Local credentials and environment
+.env
+.env.*
+!.env.example
+.neon
+*.pem
+*.key
+
+# Local tools, hosting metadata, and attachments
+.agents/
+.codex/
+.freebuff/
+.openai/
+.tools/
+.cloud-attachments/
+
+# Logs and editor/OS files
+*.log
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

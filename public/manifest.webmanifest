@@ -1,0 +1,23 @@
+{
+  "name": "MyMunga — โลกเรื่องราวของคุณ",
+  "short_name": "MyMunga",
+  "description": "อ่านและติดตามการ์ตูนกับนิยายไทยบนมือถือ",
+  "lang": "th",
+  "dir": "ltr",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f5faff",
+  "theme_color": "#039ed4",
+  "categories": ["books", "entertainment"],
+  "icons": [
+    { "src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "/icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "ชั้นหนังสือ", "url": "/library" },
+    { "name": "เรื่องทั้งหมด", "url": "/#catalog" }
+  ]
+}
